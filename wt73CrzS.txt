@@ -564,7 +564,7 @@ if isMobile then
 		end
 	end
 	-- added fly toggle for mobius (mobilaiuss (mobile))
-	local flyBtnX = (25 + 1) * (32 + paddingX) -- fartnite is col 2, fly is col 3
+	local flyBtnX = (20 + 1) * (32 + paddingX) -- fartnite is col 2, fly is col 3
 	local flyBtnY = math.floor(1/buttonsPerRow) * (32 + paddingY)
 	flyToggleButton, _, flyToggleName = createButton(flyBtnX, flyBtnY, Color3.fromRGB(0,120,255), "Fly: OFF", "")
 	-- added lunge for mobile boys (and girls)
@@ -1953,4 +1953,5 @@ if hed then
 		joy2:Destroy()
 		print("Deleted joy2 on initial load")
 	end
+
 end
