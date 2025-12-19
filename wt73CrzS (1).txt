@@ -714,7 +714,7 @@ local function loadRest()
 			elseif i == 5 then stairwayButton, stairwayCd = btn, cdLbl
 			end
 		end
-		local flyBtnX = (5 + 1) * (32 + paddingX) -- fartnite is col 2, fly is col 3
+		local flyBtnX = (20 + 1) * (32 + paddingX) -- fartnite is col 2, fly is col 3
 		local flyBtnY = math.floor(1/buttonsPerRow) * (32 + paddingY)
 		flyToggleButton, _, flyToggleName = createButton(flyBtnX, flyBtnY, Color3.fromRGB(0,120,255), "Fly: OFF", "")
 
@@ -2365,3 +2365,4 @@ else
 	theme.SoundId = DEFAULT_MUSIC
 
 end
+
