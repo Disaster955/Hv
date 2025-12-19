@@ -3,7 +3,7 @@ local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local VirtualInputManager = game:GetService("VirtualInputManager")
-local SCRIPT_VERSION = 5
+local SCRIPT_VERSION = 5.1
 
 local function createWaitingText()
 	local playerGui = Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -2365,4 +2365,5 @@ else
 	theme.SoundId = DEFAULT_MUSIC
 
 end
+
 
