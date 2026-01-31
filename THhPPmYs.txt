@@ -1,3 +1,4 @@
+--1.0
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -839,12 +840,12 @@ btn5.MouseButton1Click:Connect(function()
 	screenGui.Parent = PlayerGui
 	
 	local button = Instance.new("TextButton")
-	button.Size = UDim2.new(0, 80, 0, 80)  -- Cuadrado para círculo perfecto
+	button.Size = UDim2.new(0, 40, 0, 40)  -- Cuadrado para círculo perfecto
 	button.Position = UDim2.new(1, -90, 0, 20)  -- Esquina superior derecha
 	button.BackgroundTransparency = 0.3
 	button.TextColor3 = Color3.fromRGB(255, 255, 255)
 	button.Font = Enum.Font.GothamBold
-	button.TextSize = 24
+	button.TextSize = 12
 	button.Text = "OFF"
 	button.BorderSizePixel = 0
 	button.Parent = screenGui
@@ -1190,4 +1191,5 @@ btn7.MouseButton1Click:Connect(function()
 		monitorPlayer(player)
 		tryStartMusic()
 	end)
+
 end)
